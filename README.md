@@ -1,2 +1,3 @@
 - 👋 Hi, I’m @SilentKnight87
-- 👀 I’m passioate about the crypto and Gen AI.
+- 👀 I’m passionate about the crypto and Gen AI.
+- 😎 Building cool stuff with good vibes
