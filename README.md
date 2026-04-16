@@ -1,3 +1,3 @@
-- 👋 Hi, I’m @SilentKnight87
+- 👋 Hi, I’m @Joash
 - 👀 I’m passionate about crypto and Gen AI.
 - 😎 Building cool stuff with good vibes
