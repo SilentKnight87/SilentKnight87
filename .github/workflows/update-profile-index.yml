@@ -1,0 +1,31 @@
+name: Update profile index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate README
+        env:
+          # Optional but recommended: add a classic/fine-grained PAT secret with
+          # read access to the private repos you intentionally list. Without it,
+          # the manifest's fallback private flags are used.
+          GH_PROFILE_TOKEN: ${{ secrets.GH_PROFILE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_profile_readme.py
+
+      - name: Commit README if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update profile repo index"
+          file_pattern: README.md profile-index.json
