@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Generate README
         env:
@@ -25,7 +25,13 @@ jobs:
         run: python3 scripts/update_profile_readme.py
 
       - name: Commit README if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update profile repo index"
-          file_pattern: README.md profile-index.json
+        run: |
+          if git diff --quiet -- README.md profile-index.json; then
+            echo "Profile index already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile-index.json
+          git commit -m "Update profile repo index"
+          git push
