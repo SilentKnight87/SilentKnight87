@@ -1,84 +1,41 @@
 {
   "profile": {
     "title": "Joash",
-    "tagline": "Building AI-native tools for revenue, personal operations, investing intelligence, content, and real-world workflows.",
-    "note": "This profile README is the map. It is intentionally agent-readable: if an agent needs to understand what I am building, start here.",
-    "legend": "🔒 = private repo. `LifeOS` is intentionally excluded. Private repo links only work for authorized users.",
-    "thesis": "The through-line: build practical AI systems that create leverage in money, health, content, investing, and execution. No generic agent slop. Ship tools, gather proof, turn the proof into opportunities."
+    "tagline": "I build practical AI/operator tools: CLIs, agent workflows, dashboards, and automation that solve real operational problems.",
+    "note": "This profile highlights finished or usable work first. Spec-stage and private experiments stay off the front page until they earn the spot.",
+    "legend": "🔒 = private repo. Private links only work for authorized users.",
+    "thesis": "The through-line: build small, useful systems with clear inputs, safe approval gates, tests, and proof artifacts. Less hype, more working software."
   },
   "owner": "SilentKnight87",
   "exclude": ["LifeOS", "SilentKnight87"],
   "sections": [
     {
-      "title": "Active operating system / agent toolbelt",
+      "title": "Featured finished work",
       "repos": [
-        {"name": "ares-monarch-cfo-cli", "emoji": "🧾", "private": true, "description": "Agent-native Monarch Money CFO CLI for budgets, transactions, debt, recategorization, cash runway, and approval-safe financial workflows."},
-        {"name": "ares-upwork-revenue-cli", "emoji": "💼", "private": true, "description": "Upwork revenue engine for job discovery, scoring, proposal drafting, approval packets, and pipeline tracking."},
-        {"name": "ares-social-intel-cli", "emoji": "📣", "private": true, "description": "LinkedIn/X content intelligence CLI for source capture, idea scoring, drafts, reply queues, and approval-only publishing workflows."},
-        {"name": "ares-telegram-thread-intel-cli", "emoji": "🧵", "private": true, "description": "Telegram topic/thread intelligence layer for summaries, decisions, open loops, and promotion packets."},
-        {"name": "ares-github-content-pipeline-cli", "emoji": "🐙", "private": true, "description": "Converts real GitHub work into proof-backed content, portfolio artifacts, and Upwork proof snippets."},
-        {"name": "ares-health-intel-cli", "emoji": "⚖️", "private": true, "description": "Weight, body composition, Apple Health/Fit Index ingestion, and health floor intelligence."},
-        {"name": "ares-investing-intel-cli", "emoji": "📈", "private": true, "description": "Stocks, ETFs, crypto, macro, filings, prediction markets, and narrative intelligence."},
-        {"name": "repo-to-shorts-agent", "emoji": "🎬", "private": false, "description": "Hermes workflow that turns a repo into a launch-ready technical demo video package."},
-        {"name": "attention-intel-engine", "emoji": "🧠", "private": true, "description": "AI event-intelligence engine for World Cup 2026, GTA 6, and major attention markets."},
-        {"name": "ai-home-redesign", "emoji": "🏠", "private": true, "description": "Spec-stage AI home-redesign lead-gen workflow and property improvement concept."}
+        {"name": "ops-margin-agent", "emoji": "💸", "private": true, "description": "Enterprise tech-spend auditor built with Hermes Agent. Scans cloud, observability, SaaS, and AI inference waste; generates savings reports, remediation artifacts, tickets, Stripe approval cards, and policy-gate outputs. Includes synthetic AcmeCo data and 65 tests."},
+        {"name": "repo-to-shorts-agent", "emoji": "🎬", "private": false, "description": "Workflow that turns a repository into a launch-ready technical demo video package: analysis, story beats, visual rendering, validation, submission copy, and a Hermes skill wrapper. Includes Remotion/Python rendering paths and a large test suite."},
+        {"name": "agentic-engineering-loop", "emoji": "🛠️", "private": false, "description": "Portable agent skill for shipping software through a controlled loop: brainstorm, plan, implement, review, fix, and compound. Packaged for Hermes, Claude Code, Codex, and OpenCode-style workflows."},
+        {"name": "cardealbot", "emoji": "🚗", "private": true, "description": "Used-car deal scanner with scheduled scraping, scam detection, aesthetic scoring, market/deal scoring, LLM review, SQLite storage, and Telegram alerts."}
       ]
     },
     {
-      "title": "AI, agents, memory, and operations",
+      "title": "Other useful projects",
       "repos": [
-        {"name": "ai-news-agent", "emoji": "📰", "private": false, "description": "Python agent for collecting and processing AI/news intelligence."},
-        {"name": "gemini-memory-engine", "emoji": "🧠", "private": false, "description": "Universal personal memory layer powered by Gemini embeddings for semantic recall across inputs."},
-        {"name": "personal-llm-benchmark", "emoji": "🧪", "private": false, "description": "Personal LLM benchmark suite comparing models on real-world tasks."},
-        {"name": "personal-ai-agent", "emoji": "🤖", "private": true, "description": "Personal AI agent and Telegram bot for Obsidian-style vault management."},
         {"name": "openclaw-watchdog", "emoji": "🩺", "private": false, "description": "Self-healing watchdog for OpenClaw/Hermes gateway crashes with graduated recovery and Telegram alerts."},
-        {"name": "openclaw-obs-dashboard", "emoji": "📊", "private": true, "description": "Operator dashboard for host health, gateway status, sessions, cron, costs, and failures."},
-        {"name": "solo-leveling-system", "emoji": "🦞", "private": true, "description": "Personal command center with goals, kanban, and content calendar experiments."},
-        {"name": "context-engineering-template", "emoji": "🧰", "suffix": "fork", "private": false, "description": "Context-engineering template for making AI coding assistants work better."}
+        {"name": "gemini-memory-engine", "emoji": "🧠", "private": false, "description": "Personal semantic-memory experiment using Gemini embeddings for recall across saved inputs."},
+        {"name": "personal-llm-benchmark", "emoji": "🧪", "private": false, "description": "Personal benchmark suite for comparing LLMs on practical tasks instead of generic vibes."},
+        {"name": "podcast-digest-agent", "emoji": "🎙️", "private": false, "description": "Agent for turning podcast content into useful summaries and notes."},
+        {"name": "YoutubeToSpotifyPlaylist", "emoji": "🎧", "private": false, "description": "Utility for turning YouTube playlists into Spotify playlists."}
       ]
     },
     {
-      "title": "Finance, investing, property, and real-world automation",
+      "title": "Older experiments and learning repos",
       "repos": [
-        {"name": "financeOS", "emoji": "💸", "private": true, "description": "Self-hosted personal finance dashboard, Plaid-powered and AI-native."},
-        {"name": "ai-infra-sandisk-backtest", "emoji": "📉", "private": true, "description": "Backtests AI infrastructure equities for SNDK-like asymmetric opportunities."},
-        {"name": "property-upgrade", "emoji": "🏡", "private": true, "description": "Property/home upgrade planning workspace."},
-        {"name": "coupon-automation", "emoji": "🧾", "private": true, "description": "Automated coupon planning for CVS, Walgreens, and Dollar General."},
-        {"name": "cardealbot", "emoji": "🚗", "private": true, "description": "AI-powered car deal scanner with scam detection, aesthetic scoring, and Telegram alerts."},
-        {"name": "re-business-dashboard", "emoji": "🏢", "private": true, "description": "Real-estate business dashboard and internal operating view."},
-        {"name": "RealtyReach-AI", "emoji": "🏗️", "private": true, "description": "Real-estate AI outreach / lead-generation experiment."},
-        {"name": "my-ballot-ai", "emoji": "🗳️", "private": true, "description": "Civic / ballot intelligence app experiment."}
-      ]
-    },
-    {
-      "title": "Content, media, web apps, and demos",
-      "repos": [
-        {"name": "podcast-digest-agent", "emoji": "🎙️", "private": false, "description": "Agent for digesting podcast content into useful summaries and notes."},
-        {"name": "ai-home-gym-build", "emoji": "🏋️", "private": false, "description": "Scrollytelling site for AI-powered home gym planning using Gemini and image generation."},
-        {"name": "portfolio-site", "emoji": "🌐", "private": true, "description": "Personal portfolio website."},
-        {"name": "Breaking-Bad-React-App", "emoji": "🧪", "private": false, "description": "React app demo based on Breaking Bad data."},
-        {"name": "YoutubeToSpotifyPlaylist", "emoji": "🎧", "private": false, "description": "Utility for turning YouTube playlists into Spotify playlists."},
-        {"name": "hello-world", "emoji": "👋", "private": false, "description": "First GitHub tutorial / sandbox repo."},
-        {"name": "desktop-tutorial", "emoji": "🖥️", "private": true, "description": "GitHub Desktop tutorial repository."}
-      ]
-    },
-    {
-      "title": "Crypto, web3, and older experiments",
-      "repos": [
-        {"name": "polymarket-bot", "emoji": "🤖", "suffix": "fork", "private": false, "description": "Forked AI-agent trading bot for Polymarket research."},
-        {"name": "monarchmoney", "emoji": "🧬", "suffix": "fork", "private": false, "description": "Fork of the Python Monarch Money API library used as finance integration reference."},
-        {"name": "crypto-ai-suite", "emoji": "🪙", "private": true, "description": "Crypto AI tooling suite experiment."},
-        {"name": "crypto-news-ai", "emoji": "📰", "private": true, "description": "Crypto news AI app experiment."},
+        {"name": "ai-home-gym-build", "emoji": "🏋️", "private": false, "description": "Scrollytelling site for AI-powered home-gym planning using Gemini and image generation."},
+        {"name": "ai-news-agent", "emoji": "📰", "private": false, "description": "Early Python agent for collecting and processing AI/news intelligence."},
         {"name": "wormhole-connect-tutorial", "emoji": "🌊", "private": false, "description": "Wormhole Connect tutorial and cross-chain demo."},
-        {"name": "farming-bot", "emoji": "🌾", "private": true, "description": "Crypto farming bot experiment."},
-        {"name": "Marope-nft-marketplace", "emoji": "🎨", "private": false, "description": "NFT marketplace web app experiment."},
-        {"name": "coin-ico", "emoji": "🪙", "private": false, "description": "ICO / token sale web app experiment."},
-        {"name": "NFT-Collection", "emoji": "🖼️", "private": true, "description": "NFT collection minting project."},
-        {"name": "-Whitelist-Dapp", "emoji": "✅", "private": true, "description": "Whitelist dApp experiment."},
-        {"name": "ai-blog", "emoji": "✍️", "private": true, "description": "Early AI blog project."},
         {"name": "wave-dapp", "emoji": "🌊", "private": false, "description": "Solidity wave portal dApp."},
-        {"name": "react-dapp", "emoji": "⚛️", "private": false, "description": "React dApp learning project."},
-        {"name": "Pixel-Punk", "emoji": "🧑‍🎤", "private": false, "description": "Pixel-punk NFT / generative art experiment."}
+        {"name": "react-dapp", "emoji": "⚛️", "private": false, "description": "React dApp learning project."}
       ]
     }
   ]
