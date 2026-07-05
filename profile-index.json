@@ -7,7 +7,7 @@
     "thesis": "The through-line: build small, useful systems with clear inputs, safe approval gates, tests, and proof artifacts. Less hype, more working software."
   },
   "owner": "SilentKnight87",
-  "exclude": ["LifeOS", "SilentKnight87"],
+  "exclude": ["SilentKnight87"],
   "sections": [
     {
       "title": "Featured finished work",
