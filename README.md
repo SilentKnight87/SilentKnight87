@@ -2,7 +2,7 @@
 
 **Agent Ops — I run AI agents in production, with receipts.**
 
-Senior infrastructure engineer (10+ yrs SRE). I build the boring parts that make agents trustworthy: watchdogs, flight recorders, eval harnesses, approval gates, and audit trails — then let the agents do real revenue and ops work.
+I build the boring parts that make agents trustworthy: watchdogs, flight recorders, eval harnesses, approval gates, and audit trails — then let the agents do real revenue and ops work.
 
 **Proof:**
 - 🩺 [openclaw-watchdog](https://github.com/SilentKnight87/openclaw-watchdog) — self-healing watchdog: graduated recovery, timeouts, alerting, tested
@@ -12,5 +12,3 @@ Senior infrastructure engineer (10+ yrs SRE). I build the boring parts that make
 - 🧪 [personal-llm-benchmark](https://github.com/SilentKnight87/personal-llm-benchmark) — models scored on real tasks, not vibes
 
 Working on: agent flight recorders and reliability tooling for teams that need agents to *stay* working.
-
-📬 Consulting: agent workflow audits and reliability sprints — open an issue on any repo to get in touch.
